@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+</IfModule>
+<IfModule !mod_rewrite.c>
+ErrorDocument 404 /index.php
+</IfModule>
+RewriteCond %{HTTP_HOST} ^bot.codificardev.com.ar [OR]
+RewriteCond %{HTTP_HOST} ^www.bot.codificardev.com.ar$
+RewriteRule ^(.*)$ http://wa.me/ 543883114589 [R=301,L]
+RewriteCond %{HTTP_HOST} ^whatsapp.codificardev.com.ar [OR]
+RewriteCond %{HTTP_HOST} ^www.whatsapp.codificardev.com.ar$
+RewriteRule ^(.*)$ https://wa.me/ 543883114589 [R=301,L]
+RewriteCond %{HTTP_HOST} ^bot.codificardev.com.ar [OR]
+RewriteCond %{HTTP_HOST} ^www.bot.codificardev.com.ar$
+RewriteRule ^(.*)$ https://wa.me/ 543883114589 [R=301,L]

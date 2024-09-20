@@ -1,0 +1,30 @@
+stdClass::__set_state(array(
+   'FECAESolicitarResult' => 
+  stdClass::__set_state(array(
+     'FeCabResp' => 
+    stdClass::__set_state(array(
+       'Cuit' => 20307009715,
+       'PtoVta' => 3,
+       'CbteTipo' => 11,
+       'FchProceso' => '20240425153801',
+       'CantReg' => 1,
+       'Resultado' => 'A',
+       'Reproceso' => 'N',
+    )),
+     'FeDetResp' => 
+    stdClass::__set_state(array(
+       'FECAEDetResponse' => 
+      stdClass::__set_state(array(
+         'Concepto' => 1,
+         'DocTipo' => 96,
+         'DocNro' => 99999999,
+         'CbteDesde' => 7,
+         'CbteHasta' => 7,
+         'CbteFch' => '20240425',
+         'Resultado' => 'A',
+         'CAE' => '74175000093484',
+         'CAEFchVto' => '20240505',
+      )),
+    )),
+  )),
+))

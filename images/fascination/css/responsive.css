@@ -1,0 +1,154 @@
+/*Medida smartphones*/
+@media screen and (max-width:400px){
+
+.items_form {
+	width: 100%;
+	margin-bottom: 5px;
+}
+.btn_principal{
+	margin:5px 0px 10px;
+}
+.navbar-nav .dropdown-menu{
+	margin: auto !important;
+    width: 100%;
+}
+.box_viajes{
+	margin:20px;
+}
+.img_destinos_destacados {
+	margin:20px;
+}
+.titulo_seccion{
+	margin:20px 10px;
+}
+.bg_institucional{
+	background-image: none;
+	background-color: #eaeaea;
+}
+.legales{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.legales li{
+	display: block;
+}
+.redes_sociales{
+	text-align: center;
+}
+.footer{
+	text-align: center;
+}
+.footer small{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #3c4146;
+	padding-bottom: 10px;
+}
+.footer h2{
+	text-align: center;
+}
+.contenedor_mapa{
+	height: 400px;
+}
+
+
+.res_busqueda, .form_search, .paginacion{
+	text-align: center;
+	width: 100%;
+}
+.lista_cantidad{
+	display: none;
+}
+.form_search button{
+	margin-top:15px; 
+}
+.resultado_serch_viaje{
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.menu_botones{
+	
+}
+
+
+
+}
+
+
+/*Medida para tablets en vertical*/
+@media screen and (max-width:768px){
+
+.items_form {
+	width: 100%;
+	margin-bottom: 5px;
+}
+.btn_principal{
+	margin:5px 0px 10px;
+}
+.navbar-nav .dropdown-menu{
+	margin: auto !important;
+    width: 100%;
+}
+.box_viajes{
+	margin:20px;
+}
+.img_destinos_destacados {
+	margin:20px;
+}
+.titulo_seccion{
+	margin:20px 10px;
+}
+.bg_institucional{
+	background-image: none;
+	background-color: #eaeaea;
+}
+.legales{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.legales li{
+	display: block;
+}
+.redes_sociales{
+	text-align: center;
+}
+.footer{
+	text-align: center;
+}
+.footer small{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #3c4146;
+	padding-bottom: 10px;
+}
+.footer h2{
+	text-align: center;
+}
+.contenedor_mapa{
+	height: 400px;
+}
+
+
+.res_busqueda, .form_search, .paginacion{
+	text-align: center;
+	width: 100%;
+}
+.lista_cantidad{
+	display: none;
+}
+.form_search button{
+	margin-top:15px; 
+}
+.resultado_serch_viaje{
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+
+}
+
+
+/*Medida para tablets horizontal*/
+@media screen and (max-width:1024px){
+
+}

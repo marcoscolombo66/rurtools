@@ -1,0 +1,49 @@
+SoapClient::__set_state(array(
+   'trace' => 1,
+   '_exceptions' => false,
+   '_encoding' => 'UTF-8',
+   '_stream_context' => NULL,
+   '_soap_version' => 1,
+   'sdl' => NULL,
+   '__last_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ar.gov.afip.dif.FEV1/"><SOAP-ENV:Body><ns1:FECAESolicitar><ns1:Auth><ns1:Token>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgc3JjPSJDTj13c2FhLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBkc3Q9IkNOPXdzZmUsIE89QUZJUCwgQz1BUiIgdW5pcXVlX2lkPSI3OTI4MDM1MzQiIGdlbl90aW1lPSIxNzE0MDcxNjIxIiBleHBfdGltZT0iMTcxNDExNDg4MSIvPgogICAgPG9wZXJhdGlvbiB0eXBlPSJsb2dpbiIgdmFsdWU9ImdyYW50ZWQiPgogICAgICAgIDxsb2dpbiBlbnRpdHk9IjMzNjkzNDUwMjM5IiBzZXJ2aWNlPSJ3c2ZlIiB1aWQ9IlNFUklBTE5VTUJFUj1DVUlUIDIwMzA3MDA5NzE1LCBDTj1nZXN0aW9uc3RhZmlwIiBhdXRobWV0aG9kPSJjbXMiIHJlZ21ldGhvZD0iMjIiPgogICAgICAgICAgICA8cmVsYXRpb25zPgogICAgICAgICAgICAgICAgPHJlbGF0aW9uIGtleT0iMjAzMDcwMDk3MTUiIHJlbHR5cGU9IjQiLz4KICAgICAgICAgICAgPC9yZWxhdGlvbnM+CiAgICAgICAgPC9sb2dpbj4KICAgIDwvb3BlcmF0aW9uPgo8L3Nzbz4K</ns1:Token><ns1:Sign>QF/+xyH134fNv3mo3nm2/7dbQYnUL1GcqE9hF/ab+PyVxodtyIh6fyE3BQRruNULGgvSxOmIqRqvfU4SLGk/CVLOOjkL9hgKmaFA/r8Pj+Iqe2j2XKee+nNI6FTul686SKgOXe80FwAklp2PKoZcdXKXkaOW2Xox7Hkz896z1e4=</ns1:Sign><ns1:Cuit>20307009715</ns1:Cuit></ns1:Auth><ns1:FeCAEReq><ns1:FeCabReq><ns1:CantReg>1</ns1:CantReg><ns1:PtoVta>11</ns1:PtoVta><ns1:CbteTipo>11</ns1:CbteTipo></ns1:FeCabReq><ns1:FeDetReq><ns1:FECAEDetRequest><ns1:Concepto>1</ns1:Concepto><ns1:DocTipo>96</ns1:DocTipo><ns1:DocNro>30700971</ns1:DocNro><ns1:CbteDesde>8</ns1:CbteDesde><ns1:CbteHasta>8</ns1:CbteHasta><ns1:CbteFch>20240425</ns1:CbteFch><ns1:ImpTotal>10</ns1:ImpTotal><ns1:ImpTotConc>0</ns1:ImpTotConc><ns1:ImpNeto>10</ns1:ImpNeto><ns1:ImpOpEx>0</ns1:ImpOpEx><ns1:ImpTrib>0</ns1:ImpTrib><ns1:ImpIVA>0</ns1:ImpIVA><ns1:FchServDesde></ns1:FchServDesde><ns1:FchServHasta></ns1:FchServHasta><ns1:FchVtoPago></ns1:FchVtoPago><ns1:MonId>PES</ns1:MonId><ns1:MonCotiz>1</ns1:MonCotiz></ns1:FECAEDetRequest></ns1:FeDetReq></ns1:FeCAEReq></ns1:FECAESolicitar></SOAP-ENV:Body></SOAP-ENV:Envelope>
+',
+   'httpsocket' => NULL,
+   '_use_proxy' => 0,
+   'httpurl' => NULL,
+   '__last_request_headers' => 'POST /wsfev1/service.asmx HTTP/1.1
+Host: servicios1.afip.gov.ar
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.37
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://ar.gov.afip.dif.FEV1/FECAESolicitar"
+Content-Length: 2026
+
+',
+   '__last_response_headers' => 'HTTP/1.1 200 OK
+Date: Thu, 25 Apr 2024 19:01:21 GMT
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1182
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=MMOIIBHOJFJJFKCBKAGGGJGCIEPOAABJABHJMFIFCJIALGNHPLAEIHLGENOKCLEEDPGDGPNPGICPMDBHDALAJKMBDKCJHLKKLCLIHDNKMFKIMHBEMJAFAMLEJKOMFDGI; HttpOnly; secure
+Set-Cookie: TS0122d503=0145b27a97fed020c9de13172586806e1f6003a363dcaf11a2c8eb9deaee6e1f3f1e1b120708e59a83b7317ed7b0186a31c53f20c0; Path=/
+',
+   '_cookies' => 
+  array (
+    'f5avraaaaaaaaaaaaaaaa_session_' => 
+    array (
+      0 => 'MMOIIBHOJFJJFKCBKAGGGJGCIEPOAABJABHJMFIFCJIALGNHPLAEIHLGENOKCLEEDPGDGPNPGICPMDBHDALAJKMBDKCJHLKKLCLIHDNKMFKIMHBEMJAFAMLEJKOMFDGI',
+      3 => true,
+      1 => '/wsfev1',
+      2 => 'servicios1.afip.gov.ar',
+    ),
+    'TS0122d503' => 
+    array (
+      0 => '0145b27a97fed020c9de13172586806e1f6003a363dcaf11a2c8eb9deaee6e1f3f1e1b120708e59a83b7317ed7b0186a31c53f20c0',
+      1 => '/wsfev1',
+      2 => 'servicios1.afip.gov.ar',
+    ),
+  ),
+   '__last_response' => '<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Header><FEHeaderInfo xmlns="http://ar.gov.afip.dif.FEV1/"><ambiente>Produccion - se5</ambiente><fecha>2024-04-25T16:01:21.1256953-03:00</fecha><id>5.5.0.0</id></FEHeaderInfo></soap:Header><soap:Body><FECAESolicitarResponse xmlns="http://ar.gov.afip.dif.FEV1/"><FECAESolicitarResult><FeCabResp><Cuit>20307009715</Cuit><PtoVta>11</PtoVta><CbteTipo>11</CbteTipo><FchProceso>20240425160121</FchProceso><CantReg>1</CantReg><Resultado>R</Resultado><Reproceso>N</Reproceso></FeCabResp><FeDetResp><FECAEDetResponse><Concepto>1</Concepto><DocTipo>96</DocTipo><DocNro>30700971</DocNro><CbteDesde>8</CbteDesde><CbteHasta>8</CbteHasta><CbteFch>20240425</CbteFch><Resultado>R</Resultado><CAE /><CAEFchVto /></FECAEDetResponse></FeDetResp><Errors><Err><Code>10005</Code><Msg>NO AUTORIZADO A EMITIR COMPROBANTES - EL PUNTO DE VENTA INFORMADO DEBE ESTAR DADO DE ALTA Y SER DEL TIPO RECE</Msg></Err></Errors></FECAESolicitarResult></FECAESolicitarResponse></soap:Body></soap:Envelope>
+',
+))

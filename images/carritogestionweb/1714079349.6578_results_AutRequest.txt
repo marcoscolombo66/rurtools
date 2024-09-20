@@ -1,0 +1,1700 @@
+SoapFault::__set_state(array(
+   'message' => 'Server was unable to read request. ---> There is an error in XML document (2, 1170). ---> Input string was not in a correct format.',
+   'string' => '',
+   'code' => 0,
+   'file' => '/home/dlsadm/public_html/quebracho/application/controllers/Facturar.php',
+   'line' => 197,
+   'trace' => 
+  array (
+    0 => 
+    array (
+      'file' => '/home/dlsadm/public_html/quebracho/application/controllers/Facturar.php',
+      'line' => 197,
+      'function' => '__call',
+      'class' => 'SoapClient',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'FECAESolicitar',
+        1 => 
+        array (
+          0 => 
+          array (
+            'Auth' => 
+            array (
+              'Token' => 
+              SimpleXMLElement::__set_state(array(
+                 0 => 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgc3JjPSJDTj13c2FhLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBkc3Q9IkNOPXdzZmUsIE89QUZJUCwgQz1BUiIgdW5pcXVlX2lkPSIxNDg0MzE0MTYzIiBnZW5fdGltZT0iMTcxNDA3OTI4OSIgZXhwX3RpbWU9IjE3MTQxMjI1NDkiLz4KICAgIDxvcGVyYXRpb24gdHlwZT0ibG9naW4iIHZhbHVlPSJncmFudGVkIj4KICAgICAgICA8bG9naW4gZW50aXR5PSIzMzY5MzQ1MDIzOSIgc2VydmljZT0id3NmZSIgdWlkPSJTRVJJQUxOVU1CRVI9Q1VJVCAyMDI2NzY4Mzc4NywgQ049Y3NyX2tsZWluZ3VzdGF2b2phdmllciIgYXV0aG1ldGhvZD0iY21zIiByZWdtZXRob2Q9IjIyIj4KICAgICAgICAgICAgPHJlbGF0aW9ucz4KICAgICAgICAgICAgICAgIDxyZWxhdGlvbiBrZXk9IjIwMjY3NjgzNzg3IiByZWx0eXBlPSI0Ii8+CiAgICAgICAgICAgIDwvcmVsYXRpb25zPgogICAgICAgIDwvbG9naW4+CiAgICA8L29wZXJhdGlvbj4KPC9zc28+Cg==',
+              )),
+              'Sign' => 
+              SimpleXMLElement::__set_state(array(
+                 0 => 'XBYa+uEmQ6IBQBYqWRTeVDo6zSUpiW59JLSurp1+k1zSv3xsWZDR2EU7tsJQGxTPeQnZLkq2kHMto7EMcn5gin/4Mssbg8LGUqear5APbrgEFHyrWS8sYZyNDbMj5HIQI0iWSnCIPmc+l8ZuAAtVQ5Fq/sruAbLHLVuVg/o5Rak=',
+              )),
+              'Cuit' => NULL,
+            ),
+            'FeCAEReq' => 
+            array (
+              'FeCabReq' => 
+              array (
+                'CantReg' => 1,
+                'PtoVta' => '11',
+                'CbteTipo' => 6,
+              ),
+              'FeDetReq' => 
+              array (
+                'FECAEDetRequest' => 
+                array (
+                  'Concepto' => 1,
+                  'DocTipo' => 96,
+                  'DocNro' => '30700971',
+                  'CbteDesde' => '1',
+                  'CbteHasta' => '1',
+                  'CbteFch' => '20240425',
+                  'ImpTotal' => 10,
+                  'ImpTotConc' => 0,
+                  'ImpNeto' => 10,
+                  'ImpOpEx' => 0,
+                  'ImpTrib' => 0,
+                  'ImpIVA' => 0,
+                  'FchServDesde' => '',
+                  'FchServHasta' => '',
+                  'FchVtoPago' => '',
+                  'MonId' => 'PES',
+                  'MonCotiz' => 1,
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    1 => 
+    array (
+      'file' => '/home/dlsadm/public_html/quebracho/application/controllers/Facturar.php',
+      'line' => 197,
+      'function' => 'FECAESolicitar',
+      'class' => 'SoapClient',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 
+        array (
+          'Auth' => 
+          array (
+            'Token' => 
+            SimpleXMLElement::__set_state(array(
+               0 => 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgc3JjPSJDTj13c2FhLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBkc3Q9IkNOPXdzZmUsIE89QUZJUCwgQz1BUiIgdW5pcXVlX2lkPSIxNDg0MzE0MTYzIiBnZW5fdGltZT0iMTcxNDA3OTI4OSIgZXhwX3RpbWU9IjE3MTQxMjI1NDkiLz4KICAgIDxvcGVyYXRpb24gdHlwZT0ibG9naW4iIHZhbHVlPSJncmFudGVkIj4KICAgICAgICA8bG9naW4gZW50aXR5PSIzMzY5MzQ1MDIzOSIgc2VydmljZT0id3NmZSIgdWlkPSJTRVJJQUxOVU1CRVI9Q1VJVCAyMDI2NzY4Mzc4NywgQ049Y3NyX2tsZWluZ3VzdGF2b2phdmllciIgYXV0aG1ldGhvZD0iY21zIiByZWdtZXRob2Q9IjIyIj4KICAgICAgICAgICAgPHJlbGF0aW9ucz4KICAgICAgICAgICAgICAgIDxyZWxhdGlvbiBrZXk9IjIwMjY3NjgzNzg3IiByZWx0eXBlPSI0Ii8+CiAgICAgICAgICAgIDwvcmVsYXRpb25zPgogICAgICAgIDwvbG9naW4+CiAgICA8L29wZXJhdGlvbj4KPC9zc28+Cg==',
+            )),
+            'Sign' => 
+            SimpleXMLElement::__set_state(array(
+               0 => 'XBYa+uEmQ6IBQBYqWRTeVDo6zSUpiW59JLSurp1+k1zSv3xsWZDR2EU7tsJQGxTPeQnZLkq2kHMto7EMcn5gin/4Mssbg8LGUqear5APbrgEFHyrWS8sYZyNDbMj5HIQI0iWSnCIPmc+l8ZuAAtVQ5Fq/sruAbLHLVuVg/o5Rak=',
+            )),
+            'Cuit' => NULL,
+          ),
+          'FeCAEReq' => 
+          array (
+            'FeCabReq' => 
+            array (
+              'CantReg' => 1,
+              'PtoVta' => '11',
+              'CbteTipo' => 6,
+            ),
+            'FeDetReq' => 
+            array (
+              'FECAEDetRequest' => 
+              array (
+                'Concepto' => 1,
+                'DocTipo' => 96,
+                'DocNro' => '30700971',
+                'CbteDesde' => '1',
+                'CbteHasta' => '1',
+                'CbteFch' => '20240425',
+                'ImpTotal' => 10,
+                'ImpTotConc' => 0,
+                'ImpNeto' => 10,
+                'ImpOpEx' => 0,
+                'ImpTrib' => 0,
+                'ImpIVA' => 0,
+                'FchServDesde' => '',
+                'FchServHasta' => '',
+                'FchVtoPago' => '',
+                'MonId' => 'PES',
+                'MonCotiz' => 1,
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    2 => 
+    array (
+      'function' => 'index',
+      'class' => 'Facturar',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    3 => 
+    array (
+      'file' => '/home/dlsadm/public_html/quebracho/system/core/CodeIgniter.php',
+      'line' => 532,
+      'function' => 'call_user_func_array',
+      'args' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          Facturar::__set_state(array(
+             'load' => 
+            CI_Loader::__set_state(array(
+               '_ci_ob_level' => 0,
+               '_ci_view_paths' => 
+              array (
+                '/home/dlsadm/public_html/quebracho/application/views/' => true,
+              ),
+               '_ci_library_paths' => 
+              array (
+                0 => '/home/dlsadm/public_html/quebracho/application/',
+                1 => '/home/dlsadm/public_html/quebracho/system/',
+              ),
+               '_ci_model_paths' => 
+              array (
+                0 => '/home/dlsadm/public_html/quebracho/application/',
+              ),
+               '_ci_helper_paths' => 
+              array (
+                0 => '/home/dlsadm/public_html/quebracho/application/',
+                1 => '/home/dlsadm/public_html/quebracho/system/',
+              ),
+               '_ci_cached_vars' => 
+              array (
+              ),
+               '_ci_classes' => 
+              array (
+                'benchmark' => 'Benchmark',
+                'hooks' => 'Hooks',
+                'config' => 'Config',
+                'log' => 'Log',
+                'utf8' => 'Utf8',
+                'uri' => 'URI',
+                'router' => 'Router',
+                'output' => 'Output',
+                'security' => 'Security',
+                'input' => 'Input',
+                'lang' => 'Lang',
+                'loader' => 'Loader',
+                'session' => 'Session',
+                'form_validation' => 'Form_validation',
+                'grocery_crud' => 'Grocery_CRUD',
+                'exceptions' => 'Exceptions',
+              ),
+               '_ci_models' => 
+              array (
+                0 => 'Productos_m',
+              ),
+               '_ci_helpers' => 
+              array (
+                'url_helper' => true,
+                'text_helper' => true,
+                'form_helper' => true,
+              ),
+               '_ci_varmap' => 
+              array (
+                'unit_test' => 'unit',
+                'user_agent' => 'agent',
+              ),
+            )),
+             'benchmark' => 
+            CI_Benchmark::__set_state(array(
+               'marker' => 
+              array (
+                'total_execution_time_start' => 1714079349.509613,
+                'loading_time:_base_classes_start' => 1714079349.5096159,
+                'loading_time:_base_classes_end' => 1714079349.514272,
+                'controller_execution_time_( Facturar / index )_start' => 1714079349.5151701,
+              ),
+            )),
+             'hooks' => 
+            CI_Hooks::__set_state(array(
+               'enabled' => false,
+               'hooks' => 
+              array (
+              ),
+               '_objects' => 
+              array (
+              ),
+               '_in_progress' => false,
+            )),
+             'config' => 
+            CI_Config::__set_state(array(
+               'config' => 
+              array (
+                'base_url' => 'https://gestionst.com.ar/quebracho/',
+                'index_page' => '',
+                'uri_protocol' => 'REQUEST_URI',
+                'url_suffix' => '',
+                'language' => 'english',
+                'charset' => 'UTF-8',
+                'enable_hooks' => false,
+                'subclass_prefix' => 'MY_',
+                'permitted_uri_chars' => 'a-z 0-9~%.:_\\-',
+                'allow_get_array' => true,
+                'enable_query_strings' => false,
+                'controller_trigger' => 'c',
+                'function_trigger' => 'm',
+                'directory_trigger' => 'd',
+                'log_threshold' => 4,
+                'log_path' => 'application/logs/',
+                'log_date_format' => 'Y-m-d H:i:s',
+                'cache_path' => '',
+                'encryption_key' => 'hdhy38jDGfgwk373uejdhdgsfdhfhjfH',
+                'sess_cookie_name' => 'ci_session',
+                'sess_expiration' => 7200,
+                'sess_expire_on_close' => true,
+                'sess_encrypt_cookie' => false,
+                'sess_use_database' => false,
+                'sess_table_name' => 'ci_sessions',
+                'sess_match_ip' => false,
+                'sess_match_useragent' => true,
+                'sess_time_to_update' => 300,
+                'cookie_prefix' => '',
+                'cookie_domain' => '',
+                'cookie_path' => '/',
+                'cookie_secure' => false,
+                'global_xss_filtering' => false,
+                'csrf_protection' => false,
+                'csrf_token_name' => 'csrf_test_name',
+                'csrf_cookie_name' => 'csrf_cookie_name',
+                'csrf_expire' => 7200,
+                'compress_output' => false,
+                'time_reference' => 'local',
+                'rewrite_short_tags' => false,
+                'proxy_ips' => '',
+              ),
+               'is_loaded' => 
+              array (
+              ),
+               '_config_paths' => 
+              array (
+                0 => '/home/dlsadm/public_html/quebracho/application/',
+              ),
+            )),
+             'log' => 
+            CI_Log::__set_state(array(
+               '_log_path' => 'application/logs/',
+               '_file_permissions' => 420,
+               '_threshold' => 4,
+               '_threshold_array' => 
+              array (
+              ),
+               '_date_fmt' => 'Y-m-d H:i:s',
+               '_file_ext' => 'php',
+               '_enabled' => true,
+               '_levels' => 
+              array (
+                'ERROR' => 1,
+                'DEBUG' => 2,
+                'INFO' => 3,
+                'ALL' => 4,
+              ),
+            )),
+             'utf8' => 
+            CI_Utf8::__set_state(array(
+            )),
+             'uri' => 
+            CI_URI::__set_state(array(
+               'keyval' => 
+              array (
+              ),
+               'uri_string' => 'facturar',
+               'segments' => 
+              array (
+                1 => 'facturar',
+              ),
+               'rsegments' => 
+              array (
+                1 => 'facturar',
+                2 => 'index',
+              ),
+               '_permitted_uri_chars' => 'a-z 0-9~%.:_\\-',
+               'config' => 
+              CI_Config::__set_state(array(
+                 'config' => 
+                array (
+                  'base_url' => 'https://gestionst.com.ar/quebracho/',
+                  'index_page' => '',
+                  'uri_protocol' => 'REQUEST_URI',
+                  'url_suffix' => '',
+                  'language' => 'english',
+                  'charset' => 'UTF-8',
+                  'enable_hooks' => false,
+                  'subclass_prefix' => 'MY_',
+                  'permitted_uri_chars' => 'a-z 0-9~%.:_\\-',
+                  'allow_get_array' => true,
+                  'enable_query_strings' => false,
+                  'controller_trigger' => 'c',
+                  'function_trigger' => 'm',
+                  'directory_trigger' => 'd',
+                  'log_threshold' => 4,
+                  'log_path' => 'application/logs/',
+                  'log_date_format' => 'Y-m-d H:i:s',
+                  'cache_path' => '',
+                  'encryption_key' => 'hdhy38jDGfgwk373uejdhdgsfdhfhjfH',
+                  'sess_cookie_name' => 'ci_session',
+                  'sess_expiration' => 7200,
+                  'sess_expire_on_close' => true,
+                  'sess_encrypt_cookie' => false,
+                  'sess_use_database' => false,
+                  'sess_table_name' => 'ci_sessions',
+                  'sess_match_ip' => false,
+                  'sess_match_useragent' => true,
+                  'sess_time_to_update' => 300,
+                  'cookie_prefix' => '',
+                  'cookie_domain' => '',
+                  'cookie_path' => '/',
+                  'cookie_secure' => false,
+                  'global_xss_filtering' => false,
+                  'csrf_protection' => false,
+                  'csrf_token_name' => 'csrf_test_name',
+                  'csrf_cookie_name' => 'csrf_cookie_name',
+                  'csrf_expire' => 7200,
+                  'compress_output' => false,
+                  'time_reference' => 'local',
+                  'rewrite_short_tags' => false,
+                  'proxy_ips' => '',
+                ),
+                 'is_loaded' => 
+                array (
+                ),
+                 '_config_paths' => 
+                array (
+                  0 => '/home/dlsadm/public_html/quebracho/application/',
+                ),
+              )),
+            )),
+             'router' => 
+            CI_Router::__set_state(array(
+               'config' => 
+              CI_Config::__set_state(array(
+                 'config' => 
+                array (
+                  'base_url' => 'https://gestionst.com.ar/quebracho/',
+                  'index_page' => '',
+                  'uri_protocol' => 'REQUEST_URI',
+                  'url_suffix' => '',
+                  'language' => 'english',
+                  'charset' => 'UTF-8',
+                  'enable_hooks' => false,
+                  'subclass_prefix' => 'MY_',
+                  'permitted_uri_chars' => 'a-z 0-9~%.:_\\-',
+                  'allow_get_array' => true,
+                  'enable_query_strings' => false,
+                  'controller_trigger' => 'c',
+                  'function_trigger' => 'm',
+                  'directory_trigger' => 'd',
+                  'log_threshold' => 4,
+                  'log_path' => 'application/logs/',
+                  'log_date_format' => 'Y-m-d H:i:s',
+                  'cache_path' => '',
+                  'encryption_key' => 'hdhy38jDGfgwk373uejdhdgsfdhfhjfH',
+                  'sess_cookie_name' => 'ci_session',
+                  'sess_expiration' => 7200,
+                  'sess_expire_on_close' => true,
+                  'sess_encrypt_cookie' => false,
+                  'sess_use_database' => false,
+                  'sess_table_name' => 'ci_sessions',
+                  'sess_match_ip' => false,
+                  'sess_match_useragent' => true,
+                  'sess_time_to_update' => 300,
+                  'cookie_prefix' => '',
+                  'cookie_domain' => '',
+                  'cookie_path' => '/',
+                  'cookie_secure' => false,
+                  'global_xss_filtering' => false,
+                  'csrf_protection' => false,
+                  'csrf_token_name' => 'csrf_test_name',
+                  'csrf_cookie_name' => 'csrf_cookie_name',
+                  'csrf_expire' => 7200,
+                  'compress_output' => false,
+                  'time_reference' => 'local',
+                  'rewrite_short_tags' => false,
+                  'proxy_ips' => '',
+                ),
+                 'is_loaded' => 
+                array (
+                ),
+                 '_config_paths' => 
+                array (
+                  0 => '/home/dlsadm/public_html/quebracho/application/',
+                ),
+              )),
+               'routes' => 
+              array (
+                '404_override' => '',
+                'Staff' => 'Staff',
+                'Ajax/Staff' => 'Ajax/Staff',
+              ),
+               'class' => 'facturar',
+               'method' => 'index',
+               'directory' => NULL,
+               'default_controller' => 'Admin',
+               'translate_uri_dashes' => false,
+               'enable_query_strings' => false,
+               'uri' => 
+              CI_URI::__set_state(array(
+                 'keyval' => 
+                array (
+                ),
+                 'uri_string' => 'facturar',
+                 'segments' => 
+                array (
+                  1 => 'facturar',
+                ),
+                 'rsegments' => 
+                array (
+                  1 => 'facturar',
+                  2 => 'index',
+                ),
+                 '_permitted_uri_chars' => 'a-z 0-9~%.:_\\-',
+                 'config' => 
+                CI_Config::__set_state(array(
+                   'config' => 
+                  array (
+                    'base_url' => 'https://gestionst.com.ar/quebracho/',
+                    'index_page' => '',
+                    'uri_protocol' => 'REQUEST_URI',
+                    'url_suffix' => '',
+                    'language' => 'english',
+                    'charset' => 'UTF-8',
+                    'enable_hooks' => false,
+                    'subclass_prefix' => 'MY_',
+                    'permitted_uri_chars' => 'a-z 0-9~%.:_\\-',
+                    'allow_get_array' => true,
+                    'enable_query_strings' => false,
+                    'controller_trigger' => 'c',
+                    'function_trigger' => 'm',
+                    'directory_trigger' => 'd',
+                    'log_threshold' => 4,
+                    'log_path' => 'application/logs/',
+                    'log_date_format' => 'Y-m-d H:i:s',
+                    'cache_path' => '',
+                    'encryption_key' => 'hdhy38jDGfgwk373uejdhdgsfdhfhjfH',
+                    'sess_cookie_name' => 'ci_session',
+                    'sess_expiration' => 7200,
+                    'sess_expire_on_close' => true,
+                    'sess_encrypt_cookie' => false,
+                    'sess_use_database' => false,
+                    'sess_table_name' => 'ci_sessions',
+                    'sess_match_ip' => false,
+                    'sess_match_useragent' => true,
+                    'sess_time_to_update' => 300,
+                    'cookie_prefix' => '',
+                    'cookie_domain' => '',
+                    'cookie_path' => '/',
+                    'cookie_secure' => false,
+                    'global_xss_filtering' => false,
+                    'csrf_protection' => false,
+                    'csrf_token_name' => 'csrf_test_name',
+                    'csrf_cookie_name' => 'csrf_cookie_name',
+                    'csrf_expire' => 7200,
+                    'compress_output' => false,
+                    'time_reference' => 'local',
+                    'rewrite_short_tags' => false,
+                    'proxy_ips' => '',
+                  ),
+                   'is_loaded' => 
+                  array (
+                  ),
+                   '_config_paths' => 
+                  array (
+                    0 => '/home/dlsadm/public_html/quebracho/application/',
+                  ),
+                )),
+              )),
+            )),
+             'output' => 
+            CI_Output::__set_state(array(
+               'final_output' => NULL,
+               'cache_expiration' => 0,
+               'headers' => 
+              array (
+              ),
+               'mimes' => 
+              array (
+                'hqx' => 
+                array (
+                  0 => 'application/mac-binhex40',
+                  1 => 'application/mac-binhex',
+                  2 => 'application/x-binhex40',
+                  3 => 'application/x-mac-binhex40',
+                ),
+                'cpt' => 'application/mac-compactpro',
+                'csv' => 
+                array (
+                  0 => 'text/x-comma-separated-values',
+                  1 => 'text/comma-separated-values',
+                  2 => 'application/octet-stream',
+                  3 => 'application/vnd.ms-excel',
+                  4 => 'application/x-csv',
+                  5 => 'text/x-csv',
+                  6 => 'text/csv',
+                  7 => 'application/csv',
+                  8 => 'application/excel',
+                  9 => 'application/vnd.msexcel',
+                  10 => 'text/plain',
+                ),
+                'bin' => 
+                array (
+                  0 => 'application/macbinary',
+                  1 => 'application/mac-binary',
+                  2 => 'application/octet-stream',
+                  3 => 'application/x-binary',
+                  4 => 'application/x-macbinary',
+                ),
+                'dms' => 'application/octet-stream',
+                'lha' => 'application/octet-stream',
+                'lzh' => 'application/octet-stream',
+                'exe' => 
+                array (
+                  0 => 'application/octet-stream',
+                  1 => 'application/x-msdownload',
+                ),
+                'class' => 'application/octet-stream',
+                'psd' => 
+                array (
+                  0 => 'application/x-photoshop',
+                  1 => 'image/vnd.adobe.photoshop',
+                ),
+                'so' => 'application/octet-stream',
+                'sea' => 'application/octet-stream',
+                'dll' => 'application/octet-stream',
+                'oda' => 'application/oda',
+                'pdf' => 
+                array (
+                  0 => 'application/pdf',
+                  1 => 'application/force-download',
+                  2 => 'application/x-download',
+                  3 => 'binary/octet-stream',
+                ),
+                'ai' => 
+                array (
+                  0 => 'application/pdf',
+                  1 => 'application/postscript',
+                ),
+                'eps' => 'application/postscript',
+                'ps' => 'application/postscript',
+                'smi' => 'application/smil',
+                'smil' => 'application/smil',
+                'mif' => 'application/vnd.mif',
+                'xls' => 
+                array (
+                  0 => 'application/vnd.ms-excel',
+                  1 => 'application/msexcel',
+                  2 => 'application/x-msexcel',
+                  3 => 'application/x-ms-excel',
+                  4 => 'application/x-excel',
+                  5 => 'application/x-dos_ms_excel',
+                  6 => 'application/xls',
+                  7 => 'application/x-xls',
+                  8 => 'application/excel',
+                  9 => 'application/download',
+                  10 => 'application/vnd.ms-office',
+                  11 => 'application/msword',
+                ),
+                'ppt' => 
+                array (
+                  0 => 'application/powerpoint',
+                  1 => 'application/vnd.ms-powerpoint',
+                  2 => 'application/vnd.ms-office',
+                  3 => 'application/msword',
+                ),
+                'pptx' => 
+                array (
+                  0 => 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+                  1 => 'application/x-zip',
+                  2 => 'application/zip',
+                ),
+                'wbxml' => 'application/wbxml',
+                'wmlc' => 'application/wmlc',
+                'dcr' => 'application/x-director',
+                'dir' => 'application/x-director',
+                'dxr' => 'application/x-director',
+                'dvi' => 'application/x-dvi',
+                'gtar' => 'application/x-gtar',
+                'gz' => 'application/x-gzip',
+                'gzip' => 'application/x-gzip',
+                'php' => 
+                array (
+                  0 => 'application/x-httpd-php',
+                  1 => 'application/php',
+                  2 => 'application/x-php',
+                  3 => 'text/php',
+                  4 => 'text/x-php',
+                  5 => 'application/x-httpd-php-source',
+                ),
+                'php4' => 'application/x-httpd-php',
+                'php3' => 'application/x-httpd-php',
+                'phtml' => 'application/x-httpd-php',
+                'phps' => 'application/x-httpd-php-source',
+                'js' => 
+                array (
+                  0 => 'application/x-javascript',
+                  1 => 'text/plain',
+                ),
+                'swf' => 'application/x-shockwave-flash',
+                'sit' => 'application/x-stuffit',
+                'tar' => 'application/x-tar',
+                'tgz' => 
+                array (
+                  0 => 'application/x-tar',
+                  1 => 'application/x-gzip-compressed',
+                ),
+                'z' => 'application/x-compress',
+                'xhtml' => 'application/xhtml+xml',
+                'xht' => 'application/xhtml+xml',
+                'zip' => 
+                array (
+                  0 => 'application/x-zip',
+                  1 => 'application/zip',
+                  2 => 'application/x-zip-compressed',
+                  3 => 'application/s-compressed',
+                  4 => 'multipart/x-zip',
+                ),
+                'rar' => 
+                array (
+                  0 => 'application/x-rar',
+                  1 => 'application/rar',
+                  2 => 'application/x-rar-compressed',
+                ),
+                'mid' => 'audio/midi',
+                'midi' => 'audio/midi',
+                'mpga' => 'audio/mpeg',
+                'mp2' => 'audio/mpeg',
+                'mp3' => 
+                array (
+                  0 => 'audio/mpeg',
+                  1 => 'audio/mpg',
+                  2 => 'audio/mpeg3',
+                  3 => 'audio/mp3',
+                ),
+                'aif' => 
+                array (
+                  0 => 'audio/x-aiff',
+                  1 => 'audio/aiff',
+                ),
+                'aiff' => 
+                array (
+                  0 => 'audio/x-aiff',
+                  1 => 'audio/aiff',
+                ),
+                'aifc' => 'audio/x-aiff',
+                'ram' => 'audio/x-pn-realaudio',
+                'rm' => 'audio/x-pn-realaudio',
+                'rpm' => 'audio/x-pn-realaudio-plugin',
+                'ra' => 'audio/x-realaudio',
+                'rv' => 'video/vnd.rn-realvideo',
+                'wav' => 
+                array (
+                  0 => 'audio/x-wav',
+                  1 => 'audio/wave',
+                  2 => 'audio/wav',
+                ),
+                'bmp' => 
+                array (
+                  0 => 'image/bmp',
+                  1 => 'image/x-bmp',
+                  2 => 'image/x-bitmap',
+                  3 => 'image/x-xbitmap',
+                  4 => 'image/x-win-bitmap',
+                  5 => 'image/x-windows-bmp',
+                  6 => 'image/ms-bmp',
+                  7 => 'image/x-ms-bmp',
+                  8 => 'application/bmp',
+                  9 => 'application/x-bmp',
+                  10 => 'application/x-win-bitmap',
+                ),
+                'gif' => 'image/gif',
+                'jpeg' => 
+                array (
+                  0 => 'image/jpeg',
+                  1 => 'image/pjpeg',
+                ),
+                'jpg' => 
+                array (
+                  0 => 'image/jpeg',
+                  1 => 'image/pjpeg',
+                ),
+                'jpe' => 
+                array (
+                  0 => 'image/jpeg',
+                  1 => 'image/pjpeg',
+                ),
+                'jp2' => 
+                array (
+                  0 => 'image/jp2',
+                  1 => 'video/mj2',
+                  2 => 'image/jpx',
+                  3 => 'image/jpm',
+                ),
+                'j2k' => 
+                array (
+                  0 => 'image/jp2',
+                  1 => 'video/mj2',
+                  2 => 'image/jpx',
+                  3 => 'image/jpm',
+                ),
+                'jpf' => 
+                array (
+                  0 => 'image/jp2',
+                  1 => 'video/mj2',
+                  2 => 'image/jpx',
+                  3 => 'image/jpm',
+                ),
+                'jpg2' => 
+                array (
+                  0 => 'image/jp2',
+                  1 => 'video/mj2',
+                  2 => 'image/jpx',
+                  3 => 'image/jpm',
+                ),
+                'jpx' => 
+                array (
+                  0 => 'image/jp2',
+                  1 => 'video/mj2',
+                  2 => 'image/jpx',
+                  3 => 'image/jpm',
+                ),
+                'jpm' => 
+                array (
+                  0 => 'image/jp2',
+                  1 => 'video/mj2',
+                  2 => 'image/jpx',
+                  3 => 'image/jpm',
+                ),
+                'mj2' => 
+                array (
+                  0 => 'image/jp2',
+                  1 => 'video/mj2',
+                  2 => 'image/jpx',
+                  3 => 'image/jpm',
+                ),
+                'mjp2' => 
+                array (
+                  0 => 'image/jp2',
+                  1 => 'video/mj2',
+                  2 => 'image/jpx',
+                  3 => 'image/jpm',
+                ),
+                'png' => 
+                array (
+                  0 => 'image/png',
+                  1 => 'image/x-png',
+                ),
+                'tiff' => 'image/tiff',
+                'tif' => 'image/tiff',
+                'css' => 
+                array (
+                  0 => 'text/css',
+                  1 => 'text/plain',
+                ),
+                'html' => 
+                array (
+                  0 => 'text/html',
+                  1 => 'text/plain',
+                ),
+                'htm' => 
+                array (
+                  0 => 'text/html',
+                  1 => 'text/plain',
+                ),
+                'shtml' => 
+                array (
+                  0 => 'text/html',
+                  1 => 'text/plain',
+                ),
+                'txt' => 'text/plain',
+                'text' => 'text/plain',
+                'log' => 
+                array (
+                  0 => 'text/plain',
+                  1 => 'text/x-log',
+                ),
+                'rtx' => 'text/richtext',
+                'rtf' => 'text/rtf',
+                'xml' => 
+                array (
+                  0 => 'application/xml',
+                  1 => 'text/xml',
+                  2 => 'text/plain',
+                ),
+                'xsl' => 
+                array (
+                  0 => 'application/xml',
+                  1 => 'text/xsl',
+                  2 => 'text/xml',
+                ),
+                'mpeg' => 'video/mpeg',
+                'mpg' => 'video/mpeg',
+                'mpe' => 'video/mpeg',
+                'qt' => 'video/quicktime',
+                'mov' => 'video/quicktime',
+                'avi' => 
+                array (
+                  0 => 'video/x-msvideo',
+                  1 => 'video/msvideo',
+                  2 => 'video/avi',
+                  3 => 'application/x-troff-msvideo',
+                ),
+                'movie' => 'video/x-sgi-movie',
+                'doc' => 
+                array (
+                  0 => 'application/msword',
+                  1 => 'application/vnd.ms-office',
+                ),
+                'docx' => 
+                array (
+                  0 => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                  1 => 'application/zip',
+                  2 => 'application/msword',
+                  3 => 'application/x-zip',
+                ),
+                'dot' => 
+                array (
+                  0 => 'application/msword',
+                  1 => 'application/vnd.ms-office',
+                ),
+                'dotx' => 
+                array (
+                  0 => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                  1 => 'application/zip',
+                  2 => 'application/msword',
+                ),
+                'xlsx' => 
+                array (
+                  0 => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                  1 => 'application/zip',
+                  2 => 'application/vnd.ms-excel',
+                  3 => 'application/msword',
+                  4 => 'application/x-zip',
+                ),
+                'word' => 
+                array (
+                  0 => 'application/msword',
+                  1 => 'application/octet-stream',
+                ),
+                'xl' => 'application/excel',
+                'eml' => 'message/rfc822',
+                'json' => 
+                array (
+                  0 => 'application/json',
+                  1 => 'text/json',
+                ),
+                'pem' => 
+                array (
+                  0 => 'application/x-x509-user-cert',
+                  1 => 'application/x-pem-file',
+                  2 => 'application/octet-stream',
+                ),
+                'p10' => 
+                array (
+                  0 => 'application/x-pkcs10',
+                  1 => 'application/pkcs10',
+                ),
+                'p12' => 'application/x-pkcs12',
+                'p7a' => 'application/x-pkcs7-signature',
+                'p7c' => 
+                array (
+                  0 => 'application/pkcs7-mime',
+                  1 => 'application/x-pkcs7-mime',
+                ),
+                'p7m' => 
+                array (
+                  0 => 'application/pkcs7-mime',
+                  1 => 'application/x-pkcs7-mime',
+                ),
+                'p7r' => 'application/x-pkcs7-certreqresp',
+                'p7s' => 'application/pkcs7-signature',
+                'crt' => 
+                array (
+                  0 => 'application/x-x509-ca-cert',
+                  1 => 'application/x-x509-user-cert',
+                  2 => 'application/pkix-cert',
+                ),
+                'crl' => 
+                array (
+                  0 => 'application/pkix-crl',
+                  1 => 'application/pkcs-crl',
+                ),
+                'der' => 'application/x-x509-ca-cert',
+                'kdb' => 'application/octet-stream',
+                'pgp' => 'application/pgp',
+                'gpg' => 'application/gpg-keys',
+                'sst' => 'application/octet-stream',
+                'csr' => 'application/octet-stream',
+                'rsa' => 'application/x-pkcs7',
+                'cer' => 
+                array (
+                  0 => 'application/pkix-cert',
+                  1 => 'application/x-x509-ca-cert',
+                ),
+                '3g2' => 'video/3gpp2',
+                '3gp' => 
+                array (
+                  0 => 'video/3gp',
+                  1 => 'video/3gpp',
+                ),
+                'mp4' => 'video/mp4',
+                'm4a' => 'audio/x-m4a',
+                'f4v' => 
+                array (
+                  0 => 'video/mp4',
+                  1 => 'video/x-f4v',
+                ),
+                'flv' => 'video/x-flv',
+                'webm' => 'video/webm',
+                'aac' => 
+                array (
+                  0 => 'audio/x-aac',
+                  1 => 'audio/aac',
+                ),
+                'm4u' => 'application/vnd.mpegurl',
+                'm3u' => 'text/plain',
+                'xspf' => 'application/xspf+xml',
+                'vlc' => 'application/videolan',
+                'wmv' => 
+                array (
+                  0 => 'video/x-ms-wmv',
+                  1 => 'video/x-ms-asf',
+                ),
+                'au' => 'audio/x-au',
+                'ac3' => 'audio/ac3',
+                'flac' => 'audio/x-flac',
+                'ogg' => 
+                array (
+                  0 => 'audio/ogg',
+                  1 => 'video/ogg',
+                  2 => 'application/ogg',
+                ),
+                'kmz' => 
+                array (
+                  0 => 'application/vnd.google-earth.kmz',
+                  1 => 'application/zip',
+                  2 => 'application/x-zip',
+                ),
+                'kml' => 
+                array (
+                  0 => 'application/vnd.google-earth.kml+xml',
+                  1 => 'application/xml',
+                  2 => 'text/xml',
+                ),
+                'ics' => 'text/calendar',
+                'ical' => 'text/calendar',
+                'zsh' => 'text/x-scriptzsh',
+                '7z' => 
+                array (
+                  0 => 'application/x-7z-compressed',
+                  1 => 'application/x-compressed',
+                  2 => 'application/x-zip-compressed',
+                  3 => 'application/zip',
+                  4 => 'multipart/x-zip',
+                ),
+                '7zip' => 
+                array (
+                  0 => 'application/x-7z-compressed',
+                  1 => 'application/x-compressed',
+                  2 => 'application/x-zip-compressed',
+                  3 => 'application/zip',
+                  4 => 'multipart/x-zip',
+                ),
+                'cdr' => 
+                array (
+                  0 => 'application/cdr',
+                  1 => 'application/coreldraw',
+                  2 => 'application/x-cdr',
+                  3 => 'application/x-coreldraw',
+                  4 => 'image/cdr',
+                  5 => 'image/x-cdr',
+                  6 => 'zz-application/zz-winassoc-cdr',
+                ),
+                'wma' => 
+                array (
+                  0 => 'audio/x-ms-wma',
+                  1 => 'video/x-ms-asf',
+                ),
+                'jar' => 
+                array (
+                  0 => 'application/java-archive',
+                  1 => 'application/x-java-application',
+                  2 => 'application/x-jar',
+                  3 => 'application/x-compressed',
+                ),
+                'svg' => 
+                array (
+                  0 => 'image/svg+xml',
+                  1 => 'application/xml',
+                  2 => 'text/xml',
+                ),
+                'vcf' => 'text/x-vcard',
+                'srt' => 
+                array (
+                  0 => 'text/srt',
+                  1 => 'text/plain',
+                ),
+                'vtt' => 
+                array (
+                  0 => 'text/vtt',
+                  1 => 'text/plain',
+                ),
+                'ico' => 
+                array (
+                  0 => 'image/x-icon',
+                  1 => 'image/x-ico',
+                  2 => 'image/vnd.microsoft.icon',
+                ),
+                'odc' => 'application/vnd.oasis.opendocument.chart',
+                'otc' => 'application/vnd.oasis.opendocument.chart-template',
+                'odf' => 'application/vnd.oasis.opendocument.formula',
+                'otf' => 'application/vnd.oasis.opendocument.formula-template',
+                'odg' => 'application/vnd.oasis.opendocument.graphics',
+                'otg' => 'application/vnd.oasis.opendocument.graphics-template',
+                'odi' => 'application/vnd.oasis.opendocument.image',
+                'oti' => 'application/vnd.oasis.opendocument.image-template',
+                'odp' => 'application/vnd.oasis.opendocument.presentation',
+                'otp' => 'application/vnd.oasis.opendocument.presentation-template',
+                'ods' => 'application/vnd.oasis.opendocument.spreadsheet',
+                'ots' => 'application/vnd.oasis.opendocument.spreadsheet-template',
+                'odt' => 'application/vnd.oasis.opendocument.text',
+                'odm' => 'application/vnd.oasis.opendocument.text-master',
+                'ott' => 'application/vnd.oasis.opendocument.text-template',
+                'oth' => 'application/vnd.oasis.opendocument.text-web',
+              ),
+               'mime_type' => 'text/html',
+               'enable_profiler' => false,
+               '_zlib_oc' => false,
+               '_compress_output' => false,
+               '_profiler_sections' => 
+              array (
+              ),
+               'parse_exec_vars' => true,
+            )),
+             'security' => 
+            CI_Security::__set_state(array(
+               'filename_bad_chars' => 
+              array (
+                0 => '../',
+                1 => '<!--',
+                2 => '-->',
+                3 => '<',
+                4 => '>',
+                5 => '\'',
+                6 => '"',
+                7 => '&',
+                8 => '$',
+                9 => '#',
+                10 => '{',
+                11 => '}',
+                12 => '[',
+                13 => ']',
+                14 => '=',
+                15 => ';',
+                16 => '?',
+                17 => '%20',
+                18 => '%22',
+                19 => '%3c',
+                20 => '%253c',
+                21 => '%3e',
+                22 => '%0e',
+                23 => '%28',
+                24 => '%29',
+                25 => '%2528',
+                26 => '%26',
+                27 => '%24',
+                28 => '%3f',
+                29 => '%3b',
+                30 => '%3d',
+              ),
+               'charset' => 'UTF-8',
+               '_xss_hash' => NULL,
+               '_csrf_hash' => NULL,
+               '_csrf_expire' => 7200,
+               '_csrf_token_name' => 'ci_csrf_token',
+               '_csrf_cookie_name' => 'ci_csrf_token',
+               '_never_allowed_str' => 
+              array (
+                'document.cookie' => '[removed]',
+                '(document).cookie' => '[removed]',
+                'document.write' => '[removed]',
+                '(document).write' => '[removed]',
+                '.parentNode' => '[removed]',
+                '.innerHTML' => '[removed]',
+                '-moz-binding' => '[removed]',
+                '<!--' => '&lt;!--',
+                '-->' => '--&gt;',
+                '<![CDATA[' => '&lt;![CDATA[',
+                '<comment>' => '&lt;comment&gt;',
+                '<%' => '&lt;&#37;',
+              ),
+               '_never_allowed_regex' => 
+              array (
+                0 => 'javascript\\s*:',
+                1 => '(\\(?document\\)?|\\(?window\\)?(\\.document)?)\\.(location|on\\w*)',
+                2 => 'expression\\s*(\\(|&\\#40;)',
+                3 => 'vbscript\\s*:',
+                4 => 'wscript\\s*:',
+                5 => 'jscript\\s*:',
+                6 => 'vbs\\s*:',
+                7 => 'Redirect\\s+30\\d',
+                8 => '(["\'])?data\\s*:[^\\1]*?base64[^\\1]*?,[^\\1]*?\\1?',
+              ),
+            )),
+             'input' => 
+            CI_Input::__set_state(array(
+               'ip_address' => false,
+               '_allow_get_array' => true,
+               '_standardize_newlines' => false,
+               '_enable_xss' => false,
+               '_enable_csrf' => false,
+               'headers' => 
+              array (
+              ),
+               '_raw_input_stream' => NULL,
+               '_input_stream' => NULL,
+               'security' => 
+              CI_Security::__set_state(array(
+                 'filename_bad_chars' => 
+                array (
+                  0 => '../',
+                  1 => '<!--',
+                  2 => '-->',
+                  3 => '<',
+                  4 => '>',
+                  5 => '\'',
+                  6 => '"',
+                  7 => '&',
+                  8 => '$',
+                  9 => '#',
+                  10 => '{',
+                  11 => '}',
+                  12 => '[',
+                  13 => ']',
+                  14 => '=',
+                  15 => ';',
+                  16 => '?',
+                  17 => '%20',
+                  18 => '%22',
+                  19 => '%3c',
+                  20 => '%253c',
+                  21 => '%3e',
+                  22 => '%0e',
+                  23 => '%28',
+                  24 => '%29',
+                  25 => '%2528',
+                  26 => '%26',
+                  27 => '%24',
+                  28 => '%3f',
+                  29 => '%3b',
+                  30 => '%3d',
+                ),
+                 'charset' => 'UTF-8',
+                 '_xss_hash' => NULL,
+                 '_csrf_hash' => NULL,
+                 '_csrf_expire' => 7200,
+                 '_csrf_token_name' => 'ci_csrf_token',
+                 '_csrf_cookie_name' => 'ci_csrf_token',
+                 '_never_allowed_str' => 
+                array (
+                  'document.cookie' => '[removed]',
+                  '(document).cookie' => '[removed]',
+                  'document.write' => '[removed]',
+                  '(document).write' => '[removed]',
+                  '.parentNode' => '[removed]',
+                  '.innerHTML' => '[removed]',
+                  '-moz-binding' => '[removed]',
+                  '<!--' => '&lt;!--',
+                  '-->' => '--&gt;',
+                  '<![CDATA[' => '&lt;![CDATA[',
+                  '<comment>' => '&lt;comment&gt;',
+                  '<%' => '&lt;&#37;',
+                ),
+                 '_never_allowed_regex' => 
+                array (
+                  0 => 'javascript\\s*:',
+                  1 => '(\\(?document\\)?|\\(?window\\)?(\\.document)?)\\.(location|on\\w*)',
+                  2 => 'expression\\s*(\\(|&\\#40;)',
+                  3 => 'vbscript\\s*:',
+                  4 => 'wscript\\s*:',
+                  5 => 'jscript\\s*:',
+                  6 => 'vbs\\s*:',
+                  7 => 'Redirect\\s+30\\d',
+                  8 => '(["\'])?data\\s*:[^\\1]*?base64[^\\1]*?,[^\\1]*?\\1?',
+                ),
+              )),
+               'uni' => 
+              CI_Utf8::__set_state(array(
+              )),
+            )),
+             'lang' => 
+            CI_Lang::__set_state(array(
+               'language' => 
+              array (
+              ),
+               'is_loaded' => 
+              array (
+              ),
+            )),
+             'db' => 
+            CI_DB_mysqli_driver::__set_state(array(
+               'dbdriver' => 'mysqli',
+               'compress' => false,
+               'delete_hack' => true,
+               'stricton' => false,
+               '_escape_char' => '`',
+               '_mysqli' => 
+              mysqli::__set_state(array(
+                 'affected_rows' => NULL,
+                 'client_info' => NULL,
+                 'client_version' => NULL,
+                 'connect_errno' => NULL,
+                 'connect_error' => NULL,
+                 'errno' => NULL,
+                 'error' => NULL,
+                 'error_list' => NULL,
+                 'field_count' => NULL,
+                 'host_info' => NULL,
+                 'info' => NULL,
+                 'insert_id' => NULL,
+                 'server_info' => NULL,
+                 'server_version' => NULL,
+                 'stat' => NULL,
+                 'sqlstate' => NULL,
+                 'protocol_version' => NULL,
+                 'thread_id' => NULL,
+                 'warning_count' => NULL,
+              )),
+               'return_delete_sql' => false,
+               'reset_delete_data' => false,
+               'qb_select' => 
+              array (
+              ),
+               'qb_distinct' => false,
+               'qb_from' => 
+              array (
+              ),
+               'qb_join' => 
+              array (
+              ),
+               'qb_where' => 
+              array (
+              ),
+               'qb_groupby' => 
+              array (
+              ),
+               'qb_having' => 
+              array (
+              ),
+               'qb_keys' => 
+              array (
+              ),
+               'qb_limit' => false,
+               'qb_offset' => false,
+               'qb_orderby' => 
+              array (
+              ),
+               'qb_set' => 
+              array (
+              ),
+               'qb_set_ub' => 
+              array (
+              ),
+               'qb_aliased_tables' => 
+              array (
+              ),
+               'qb_where_group_started' => false,
+               'qb_where_group_count' => 0,
+               'qb_caching' => false,
+               'qb_cache_exists' => 
+              array (
+              ),
+               'qb_cache_select' => 
+              array (
+              ),
+               'qb_cache_from' => 
+              array (
+              ),
+               'qb_cache_join' => 
+              array (
+              ),
+               'qb_cache_aliased_tables' => 
+              array (
+              ),
+               'qb_cache_where' => 
+              array (
+              ),
+               'qb_cache_groupby' => 
+              array (
+              ),
+               'qb_cache_having' => 
+              array (
+              ),
+               'qb_cache_orderby' => 
+              array (
+              ),
+               'qb_cache_set' => 
+              array (
+              ),
+               'qb_no_escape' => 
+              array (
+              ),
+               'qb_cache_no_escape' => 
+              array (
+              ),
+               'dsn' => '',
+               'username' => 'dlsadm_quebracho',
+               'password' => 'Marcos30700971',
+               'hostname' => 'localhost',
+               'database' => 'dlsadm_quebracho',
+               'subdriver' => NULL,
+               'dbprefix' => '',
+               'char_set' => 'utf8',
+               'dbcollat' => 'utf8_general_ci',
+               'encrypt' => false,
+               'swap_pre' => '',
+               'port' => NULL,
+               'pconnect' => false,
+               'conn_id' => 
+              mysqli::__set_state(array(
+                 'affected_rows' => NULL,
+                 'client_info' => NULL,
+                 'client_version' => NULL,
+                 'connect_errno' => NULL,
+                 'connect_error' => NULL,
+                 'errno' => NULL,
+                 'error' => NULL,
+                 'error_list' => NULL,
+                 'field_count' => NULL,
+                 'host_info' => NULL,
+                 'info' => NULL,
+                 'insert_id' => NULL,
+                 'server_info' => NULL,
+                 'server_version' => NULL,
+                 'stat' => NULL,
+                 'sqlstate' => NULL,
+                 'protocol_version' => NULL,
+                 'thread_id' => NULL,
+                 'warning_count' => NULL,
+              )),
+               'result_id' => true,
+               'db_debug' => true,
+               'benchmark' => 0.014729022979736328,
+               'query_count' => 4,
+               'bind_marker' => '?',
+               'save_queries' => true,
+               'queries' => 
+              array (
+                0 => 'SELECT * FROM `ordenes` 
+   INNER JOIN usuarios on ordenes.idUsuario=usuarios.idUsuario 
+   where idOrden=\'7\'',
+                1 => 'SELECT numCompAfip, PtoVta FROM `plataformaspago`   
+   where id=0',
+                2 => 'UPDATE `ordenes` SET `CAE` = NULL, `facturado` = 1
+WHERE `idOrden` = \'7\'',
+                3 => 'UPDATE `plataformaspago` SET `numCompAfip` = 2
+WHERE `id` = 0',
+              ),
+               'query_times' => 
+              array (
+                0 => 0.0001659393310546875,
+                1 => 0.00021100044250488281,
+                2 => 0.0085659027099609375,
+                3 => 0.0057861804962158203,
+              ),
+               'data_cache' => 
+              array (
+              ),
+               'trans_enabled' => true,
+               'trans_strict' => true,
+               '_trans_depth' => 0,
+               '_trans_status' => true,
+               '_trans_failure' => false,
+               'cache_on' => false,
+               'cachedir' => '',
+               'cache_autodel' => false,
+               'CACHE' => NULL,
+               '_protect_identifiers' => true,
+               '_reserved_identifiers' => 
+              array (
+                0 => '*',
+              ),
+               '_like_escape_str' => ' ESCAPE \'%s\' ',
+               '_like_escape_chr' => '!',
+               '_random_keyword' => 
+              array (
+                0 => 'RAND()',
+                1 => 'RAND(%d)',
+              ),
+               '_count_string' => 'SELECT COUNT(*) AS ',
+               'failover' => 
+              array (
+              ),
+            )),
+             'session' => 
+            CI_Session::__set_state(array(
+               'userdata' => 
+              array (
+                '__ci_last_regenerate' => 1714079345,
+                'email' => 'lascolonias152@gmail.com',
+                'logged_in' => true,
+                'tangoToken' => '10c8f9a6-aeba-45e6-805e-44a084c361bd_14467',
+                'tangoLista' => '98',
+              ),
+               '_driver' => 'files',
+               '_config' => 
+              array (
+                'cookie_lifetime' => 7200,
+                'cookie_name' => 'ci_session',
+                'cookie_path' => '/',
+                'cookie_domain' => '',
+                'cookie_secure' => false,
+                'expiration' => 7200,
+                'match_ip' => false,
+                'save_path' => '/home/dlsadm/tmpsite',
+                '_sid_regexp' => '[0-9a-f]{40}',
+              ),
+               '_sid_regexp' => '[0-9a-f]{40}',
+            )),
+             'form_validation' => 
+            CI_Form_validation::__set_state(array(
+               'CI' => NULL,
+               '_field_data' => 
+              array (
+              ),
+               '_config_rules' => 
+              array (
+              ),
+               '_error_array' => 
+              array (
+              ),
+               '_error_messages' => 
+              array (
+              ),
+               '_error_prefix' => '<p>',
+               '_error_suffix' => '</p>',
+               'error_string' => '',
+               '_safe_form_data' => false,
+               'validation_data' => 
+              array (
+              ),
+            )),
+             'grocery_crud' => 
+            Grocery_CRUD::__set_state(array(
+               'state_code' => NULL,
+               'state_info' => NULL,
+               'columns' => NULL,
+               'basic_db_table_checked' => false,
+               'columns_checked' => false,
+               'add_fields_checked' => false,
+               'edit_fields_checked' => false,
+               'read_fields_checked' => false,
+               'default_theme' => 'flexigrid',
+               'language' => NULL,
+               'lang_strings' => 
+              array (
+              ),
+               'php_date_format' => NULL,
+               'js_date_format' => NULL,
+               'ui_date_format' => NULL,
+               'character_limiter' => NULL,
+               'config' => NULL,
+               'add_fields' => NULL,
+               'edit_fields' => NULL,
+               'read_fields' => NULL,
+               'add_hidden_fields' => 
+              array (
+              ),
+               'edit_hidden_fields' => 
+              array (
+              ),
+               'field_types' => NULL,
+               'basic_db_table' => NULL,
+               'theme_config' => 
+              array (
+              ),
+               'subject' => NULL,
+               'subject_plural' => NULL,
+               'display_as' => 
+              array (
+              ),
+               'order_by' => NULL,
+               'where' => 
+              array (
+              ),
+               'like' => 
+              array (
+              ),
+               'having' => 
+              array (
+              ),
+               'or_having' => 
+              array (
+              ),
+               'limit' => NULL,
+               'required_fields' => 
+              array (
+              ),
+               '_unique_fields' => 
+              array (
+              ),
+               'validation_rules' => 
+              array (
+              ),
+               'relation' => 
+              array (
+              ),
+               'relation_n_n' => 
+              array (
+              ),
+               'upload_fields' => 
+              array (
+              ),
+               'actions' => 
+              array (
+              ),
+               'form_validation' => NULL,
+               'change_field_type' => NULL,
+               'primary_keys' => 
+              array (
+              ),
+               'crud_url_path' => NULL,
+               'list_url_path' => NULL,
+               'unset_texteditor' => 
+              array (
+              ),
+               'unset_add' => false,
+               'unset_edit' => false,
+               'unset_delete' => false,
+               'unset_read' => false,
+               'unset_jquery' => false,
+               'unset_jquery_ui' => false,
+               'unset_bootstrap' => false,
+               'unset_list' => false,
+               'unset_export' => false,
+               'unset_print' => false,
+               'unset_back_to_list' => false,
+               'unset_clone' => false,
+               'unset_columns' => NULL,
+               'unset_add_fields' => NULL,
+               'unset_edit_fields' => NULL,
+               'unset_clone_fields' => NULL,
+               'unset_read_fields' => NULL,
+               'callback_before_insert' => NULL,
+               'callback_after_insert' => NULL,
+               'callback_insert' => NULL,
+               'callback_before_update' => NULL,
+               'callback_after_update' => NULL,
+               'callback_update' => NULL,
+               'callback_before_delete' => NULL,
+               'callback_after_delete' => NULL,
+               'callback_delete' => NULL,
+               'callback_before_clone' => NULL,
+               'callback_after_clone' => NULL,
+               'callback_clone' => NULL,
+               'callback_column' => 
+              array (
+              ),
+               'callback_add_field' => 
+              array (
+              ),
+               'callback_edit_field' => 
+              array (
+              ),
+               'callback_read_field' => 
+              array (
+              ),
+               'callback_clone_field' => 
+              array (
+              ),
+               'callback_upload' => NULL,
+               'callback_before_upload' => NULL,
+               'callback_after_upload' => NULL,
+               'default_javascript_path' => NULL,
+               'default_css_path' => NULL,
+               'default_texteditor_path' => NULL,
+               'default_theme_path' => NULL,
+               'default_language_path' => 'assets/grocery_crud/languages',
+               'default_config_path' => 'assets/grocery_crud/config',
+               'default_assets_path' => 'assets/grocery_crud',
+               'states' => 
+              array (
+                0 => 'unknown',
+                1 => 'list',
+                2 => 'add',
+                3 => 'edit',
+                4 => 'delete',
+                5 => 'insert',
+                6 => 'update',
+                7 => 'ajax_list',
+                8 => 'ajax_list_info',
+                9 => 'insert_validation',
+                10 => 'update_validation',
+                11 => 'upload_file',
+                12 => 'delete_file',
+                13 => 'ajax_relation',
+                14 => 'ajax_relation_n_n',
+                15 => 'success',
+                16 => 'export',
+                17 => 'print',
+                18 => 'read',
+                19 => 'delete_multiple',
+                20 => 'clone',
+              ),
+               'theme_path' => NULL,
+               'views_as_string' => '',
+               'echo_and_die' => false,
+               'theme' => NULL,
+               'default_true_false_text' => 
+              array (
+                0 => 'inactive',
+                1 => 'active',
+              ),
+               'css_files' => 
+              array (
+              ),
+               'js_files' => 
+              array (
+              ),
+               'js_lib_files' => 
+              array (
+              ),
+               'js_config_files' => 
+              array (
+              ),
+               'basic_model' => NULL,
+            )),
+             'Productos_m' => 
+            Productos_m::__set_state(array(
+            )),
+          )),
+          1 => 'index',
+        ),
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    4 => 
+    array (
+      'file' => '/home/dlsadm/public_html/quebracho/index.php',
+      'line' => 315,
+      'args' => 
+      array (
+        0 => '/home/dlsadm/public_html/quebracho/system/core/CodeIgniter.php',
+      ),
+      'function' => 'require_once',
+    ),
+  ),
+   'previous' => NULL,
+   'faultstring' => 'Server was unable to read request. ---> There is an error in XML document (2, 1170). ---> Input string was not in a correct format.',
+   'faultcode' => 'soap:Client',
+   'detail' => '',
+))

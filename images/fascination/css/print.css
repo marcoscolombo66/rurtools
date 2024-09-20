@@ -1,0 +1,48 @@
+nav, .footer,.seccion span, .seccion p, .legales, .redes_sociales, title, #regresar{
+	display: none;
+}
+
+/*	TICKET DE COMPRA
+*******************************************************/
+.ticket_compra{
+	width: 100%;
+	max-width: 600px;
+	margin:20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: block;
+}
+.ticket_compra img#logo_print{
+    background: #dddddd;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    display: initial !important;
+}
+.ticket_compra p{
+	text-align: left;
+	font-weight: normal;
+	font-size:20px;
+	margin-bottom: 30px;
+}
+.ticket_compra ul{
+	width: 100%;
+	padding:0px;
+	margin: 0px;
+}
+.ticket_compra ul li{
+	list-style: none;
+	width: 50%;
+	float: left;
+	font-size:14px;
+	margin-bottom: 12px;
+}
+.ticket_compra .detalle{
+	text-align: left;
+}
+.ticket_compra .resultado{
+	text-align: right;
+}
+.ticket_compra .compra{
+	padding-top: 30px;
+}

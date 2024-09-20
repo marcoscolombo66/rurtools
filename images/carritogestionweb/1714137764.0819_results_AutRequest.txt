@@ -1,0 +1,38 @@
+stdClass::__set_state(array(
+   'FECAESolicitarResult' => 
+  stdClass::__set_state(array(
+     'FeCabResp' => 
+    stdClass::__set_state(array(
+       'Cuit' => 20267683787,
+       'PtoVta' => 11,
+       'CbteTipo' => 6,
+       'FchProceso' => '20240426102244',
+       'CantReg' => 1,
+       'Resultado' => 'R',
+       'Reproceso' => 'N',
+    )),
+     'FeDetResp' => 
+    stdClass::__set_state(array(
+       'FECAEDetResponse' => 
+      stdClass::__set_state(array(
+         'Concepto' => 1,
+         'DocTipo' => 96,
+         'DocNro' => 30700971,
+         'CbteDesde' => 1,
+         'CbteHasta' => 1,
+         'CbteFch' => '20240426',
+         'Resultado' => 'R',
+         'Observaciones' => 
+        stdClass::__set_state(array(
+           'Obs' => 
+          stdClass::__set_state(array(
+             'Code' => 10051,
+             'Msg' => 'Los importes informados en AlicIVA no se corresponden con los porcentajes.',
+          )),
+        )),
+         'CAE' => '',
+         'CAEFchVto' => '',
+      )),
+    )),
+  )),
+))

@@ -1,0 +1,49 @@
+SoapClient::__set_state(array(
+   'trace' => 1,
+   '_exceptions' => false,
+   '_encoding' => 'UTF-8',
+   '_stream_context' => NULL,
+   '_soap_version' => 1,
+   'sdl' => NULL,
+   '__last_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ar.gov.afip.dif.FEV1/"><SOAP-ENV:Body><ns1:FECAESolicitar><ns1:Auth><ns1:Token>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgc3JjPSJDTj13c2FhLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBkc3Q9IkNOPXdzZmUsIE89QUZJUCwgQz1BUiIgdW5pcXVlX2lkPSIxNDE5Mjc3ODQ4IiBnZW5fdGltZT0iMTcxNDEzNzMxMSIgZXhwX3RpbWU9IjE3MTQxODA1NzEiLz4KICAgIDxvcGVyYXRpb24gdHlwZT0ibG9naW4iIHZhbHVlPSJncmFudGVkIj4KICAgICAgICA8bG9naW4gZW50aXR5PSIzMzY5MzQ1MDIzOSIgc2VydmljZT0id3NmZSIgdWlkPSJTRVJJQUxOVU1CRVI9Q1VJVCAyMDI2NzY4Mzc4NywgQ049Y3NyX2tsZWluZ3VzdGF2b2phdmllciIgYXV0aG1ldGhvZD0iY21zIiByZWdtZXRob2Q9IjIyIj4KICAgICAgICAgICAgPHJlbGF0aW9ucz4KICAgICAgICAgICAgICAgIDxyZWxhdGlvbiBrZXk9IjIwMjY3NjgzNzg3IiByZWx0eXBlPSI0Ii8+CiAgICAgICAgICAgIDwvcmVsYXRpb25zPgogICAgICAgIDwvbG9naW4+CiAgICA8L29wZXJhdGlvbj4KPC9zc28+Cg==</ns1:Token><ns1:Sign>jkY5YeK0FEGBKwgCuh57d1y+puHS3Ei/BVeFsStBq+hyioCxtRA6qeO7t0Sk0crzAbyVFQ+T0AZCyVwEg1ISucSdEd2kYPcTJN8YyuOsoy09UCMeYj0J8gZ0GUi7IYqh+MEmV9JFkZpDhi5RbhYoE/FMLlWcmTZonQzRzNqIzbU=</ns1:Sign><ns1:Cuit>20267683787</ns1:Cuit></ns1:Auth><ns1:FeCAEReq><ns1:FeCabReq><ns1:CantReg>1</ns1:CantReg><ns1:PtoVta>11</ns1:PtoVta><ns1:CbteTipo>6</ns1:CbteTipo></ns1:FeCabReq><ns1:FeDetReq><ns1:FECAEDetRequest><ns1:Concepto>1</ns1:Concepto><ns1:DocTipo>96</ns1:DocTipo><ns1:DocNro>30700971</ns1:DocNro><ns1:CbteDesde>1</ns1:CbteDesde><ns1:CbteHasta>1</ns1:CbteHasta><ns1:CbteFch>20240426</ns1:CbteFch><ns1:ImpTotal>10</ns1:ImpTotal><ns1:ImpTotConc>0</ns1:ImpTotConc><ns1:ImpNeto>10</ns1:ImpNeto><ns1:ImpOpEx>0</ns1:ImpOpEx><ns1:ImpTrib>0</ns1:ImpTrib><ns1:ImpIVA>2.1</ns1:ImpIVA><ns1:FchServDesde></ns1:FchServDesde><ns1:FchServHasta></ns1:FchServHasta><ns1:FchVtoPago></ns1:FchVtoPago><ns1:MonId>PES</ns1:MonId><ns1:MonCotiz>1</ns1:MonCotiz><ns1:Iva><ns1:AlicIva><ns1:Id>5</ns1:Id><ns1:BaseImp>1</ns1:BaseImp><ns1:Importe>2.1</ns1:Importe></ns1:AlicIva></ns1:Iva></ns1:FECAEDetRequest></ns1:FeDetReq></ns1:FeCAEReq></ns1:FECAESolicitar></SOAP-ENV:Body></SOAP-ENV:Envelope>
+',
+   'httpsocket' => NULL,
+   '_use_proxy' => 0,
+   'httpurl' => NULL,
+   '__last_request_headers' => 'POST /wsfev1/service.asmx HTTP/1.1
+Host: servicios1.afip.gov.ar
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.37
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://ar.gov.afip.dif.FEV1/FECAESolicitar"
+Content-Length: 2165
+
+',
+   '__last_response_headers' => 'HTTP/1.1 200 OK
+Date: Fri, 26 Apr 2024 13:16:11 GMT
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1315
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=DJHIJLPMEAMCDBPEOHLLEOKLMAGKHNIAGCCGKNMIDHGLNBBINFLPJGLDMOPMLFPOPGHDEFAIAIBOKAHFMIPAIKHENKMHONDOMOKGMGPPNFLLGMCJMMHGDDJPBJMNOLIA; HttpOnly; secure
+Set-Cookie: TS0122d503=0145b27a978e03c915e21ca2d5d4a9cb81af8c46ff98a3c189e963548698a49860c5a64df16e3791c08d97e1d0269f35f131861c6e; Path=/
+',
+   '_cookies' => 
+  array (
+    'f5avraaaaaaaaaaaaaaaa_session_' => 
+    array (
+      0 => 'DJHIJLPMEAMCDBPEOHLLEOKLMAGKHNIAGCCGKNMIDHGLNBBINFLPJGLDMOPMLFPOPGHDEFAIAIBOKAHFMIPAIKHENKMHONDOMOKGMGPPNFLLGMCJMMHGDDJPBJMNOLIA',
+      3 => true,
+      1 => '/wsfev1',
+      2 => 'servicios1.afip.gov.ar',
+    ),
+    'TS0122d503' => 
+    array (
+      0 => '0145b27a978e03c915e21ca2d5d4a9cb81af8c46ff98a3c189e963548698a49860c5a64df16e3791c08d97e1d0269f35f131861c6e',
+      1 => '/wsfev1',
+      2 => 'servicios1.afip.gov.ar',
+    ),
+  ),
+   '__last_response' => '<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Header><FEHeaderInfo xmlns="http://ar.gov.afip.dif.FEV1/"><ambiente>Produccion - se9</ambiente><fecha>2024-04-26T10:16:11.696156-03:00</fecha><id>5.5.0.0</id></FEHeaderInfo></soap:Header><soap:Body><FECAESolicitarResponse xmlns="http://ar.gov.afip.dif.FEV1/"><FECAESolicitarResult><FeCabResp><Cuit>20267683787</Cuit><PtoVta>11</PtoVta><CbteTipo>6</CbteTipo><FchProceso>20240426101611</FchProceso><CantReg>1</CantReg><Resultado>R</Resultado><Reproceso>N</Reproceso></FeCabResp><FeDetResp><FECAEDetResponse><Concepto>1</Concepto><DocTipo>96</DocTipo><DocNro>30700971</DocNro><CbteDesde>1</CbteDesde><CbteHasta>1</CbteHasta><CbteFch>20240426</CbteFch><Resultado>R</Resultado><Observaciones><Obs><Code>10048</Code><Msg>El campo  \'Importe Total\' ImpTotal, debe ser igual  a la  suma de ImpTotConc + ImpNeto + ImpOpEx + ImpTrib + ImpIVA.</Msg></Obs><Obs><Code>10051</Code><Msg>Los importes informados en AlicIVA no se corresponden con los porcentajes.</Msg></Obs></Observaciones><CAE /><CAEFchVto /></FECAEDetResponse></FeDetResp></FECAESolicitarResult></FECAESolicitarResponse></soap:Body></soap:Envelope>
+',
+))

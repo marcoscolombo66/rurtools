@@ -1,0 +1,38 @@
+stdClass::__set_state(array(
+   'FECAESolicitarResult' => 
+  stdClass::__set_state(array(
+     'FeCabResp' => 
+    stdClass::__set_state(array(
+       'Cuit' => 20307009715,
+       'PtoVta' => 3,
+       'CbteTipo' => 11,
+       'FchProceso' => '20240423201043',
+       'CantReg' => 1,
+       'Resultado' => 'R',
+       'Reproceso' => 'N',
+    )),
+     'FeDetResp' => 
+    stdClass::__set_state(array(
+       'FECAEDetResponse' => 
+      stdClass::__set_state(array(
+         'Concepto' => 1,
+         'DocTipo' => 96,
+         'DocNro' => 26467801,
+         'CbteDesde' => 3,
+         'CbteHasta' => 3,
+         'CbteFch' => '20240423',
+         'Resultado' => 'R',
+         'CAE' => '',
+         'CAEFchVto' => '',
+      )),
+    )),
+     'Errors' => 
+    stdClass::__set_state(array(
+       'Err' => 
+      stdClass::__set_state(array(
+         'Code' => 10016,
+         'Msg' => 'El numero o fecha del comprobante no se corresponde con el proximo a autorizar. Consultar metodo FECompUltimoAutorizado.',
+      )),
+    )),
+  )),
+))

@@ -11,7 +11,7 @@ class Api extends RestController{
   	
 	function __construct()
     {
-        // Construct the parent class API
+        // Construct the parent class API 2
         parent::__construct();
 		$this->load->database();
 		$this->load->library('Session'); //agregue para el login

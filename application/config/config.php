@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */ 
-$config['base_url']	= 'https://antiguoshop.ar/admin/';  
+$config['base_url']	= 'https://rurtools.com.ar/admin/';  
 
 /*
 |--------------------------------------------------------------------------

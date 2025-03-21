@@ -4,4 +4,3 @@ vendor
 images/
 /images/
 /application/config/database.php
-/application/config/config.php

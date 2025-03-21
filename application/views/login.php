@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Panel Admin - Quebracho</title>
+        <title>Panel Admin - Rur Tools</title>
 
           <!-- Bootstrap Core CSS -->
         <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">

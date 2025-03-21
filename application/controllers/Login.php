@@ -25,7 +25,7 @@ class Login extends CI_Controller {
         $password = $this->input->post('password');
 
         // Verificar las credenciales (en este caso, se comparan directamente)
-        if ($email === 'lascolonias152@gmail.com' && $password === 'marcos01') {
+        if ($email === 'rurtools' && $password === 'marcos01') {
         //if ($email === 'lascolonias152@gmail.com' && $password === 'braian010302') {
             // Credenciales válidas, redireccionar a la vista de productos
             $data = array(
